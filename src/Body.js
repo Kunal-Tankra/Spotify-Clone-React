@@ -12,7 +12,7 @@ const Body = ({ spotify }) => {
   const [currentSong, setCurrentSong] = useState(null);
   
 const audioPlayer = useRef(null)
-// console.log(discover_weekly)
+console.log(discover_weekly, "thi is")
 
   return (
     <div className='body'>
